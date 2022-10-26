@@ -1,0 +1,96 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  background-color: rgb(223 151 151);
+  margin-top: 20px;
+  background-image: url(/images/wrinkledpaper.webp);
+  background-size: 570px 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 370px;
+}
+h1 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: rgb(1, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  text-align: center;
+  text-transform: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: #afff00;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  font-size: large;
+}
+button {
+  background-color: rgb(213, 123, 6);
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 20px;
+  overflow: visible;
+  text-align: center;
+  text-transform: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:focus {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, rgb(0, 0, 0) 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+input {
+  padding: 10px 20px;
+}
+button.delete-all {
+  margin-right: 70px;
+}
+
+/*MEDIA QUERIES STYLE*/
+@media screen and (max-width: 325px) {
+  body {
+    background-size: 670px 1000px;
+    background-position: center;
+  }
+}
